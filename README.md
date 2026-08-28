@@ -20,6 +20,16 @@ Used the **NetworkWalks Hash Calculator** to obtain the PDF hash and the **Netwo
 
 Evidence: `W3-PM2-NetworkWalks/screenshots/`
 
+## Supplementary Protected PDFs
+
+The `W3-PM2-Additional-PDFs/` folder contains additional screenshots for two further protected PDF training exercises.
+
+The supplementary evidence demonstrates:
+- Additional PDF hash extraction
+- Password-protected PDF verification
+- Johnny/JTR recognition of PDF password-verification data
+- Successful NetworkWalks training completion
+
 ## Learning Objectives
 
 - Understand the relationship between password protection and hashing.
@@ -36,6 +46,12 @@ Evidence: `W3-PM2-NetworkWalks/screenshots/`
 - Dictionary attacks can be effective against weak or commonly used passwords.
 - Strong, unique passwords improve resistance to password-cracking attempts.
 - Security testing must always be performed with explicit authorization and within a controlled environment.
+
+## Final Report
+
+The detailed Week 3 report is stored in:
+
+`W3-PM-FINAL/Antoinette_Thompson_NetworkWalks_B082_Week3_Password_Auditing_Report.docx`
 
 ## Security & Privacy Notice
 
@@ -71,7 +87,19 @@ NetworkWalks-B082-Week3/
 │   │   └── PM2-07-Lab-Flag.png
 │   └── README.md
 │
-├── .gitignore
+├── W3-PM2-Additional-PDFs/
+│   ├── screenshots/
+│   │   ├── Additional-PDF-Evidence-01.png
+│   │   ├── Additional-PDF-Evidence-02.png
+│   │   ├── Additional-PDF-Evidence-03.png
+│   │   ├── Additional-PDF-Evidence-04.png
+│   │   ├── Additional-PDF-Evidence-05.png
+│   │   └── Additional-PDF-Evidence-06.png
+│   └── README.md
+│
+├── W3-PM-FINAL/
+│   └── Antoinette_Thompson_NetworkWalks_B082_Week3_Password_Auditing_Report_WITH_ADDITIONAL_PDFS.docx
+│
 └── README.md
 ```
 
