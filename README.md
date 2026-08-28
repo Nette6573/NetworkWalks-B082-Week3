@@ -1,178 +1,91 @@
 # NetworkWalks-B082-Week3
 
-# Week 3 – Password Cracking Labs
+## Week 3 – Password Cracking Labs
 
-## NetworkWalks Cybersecurity & Ethical Hacking Internship
+This repository documents my Week 3 practical cybersecurity work for the **NetworkWalks Cybersecurity & Ethical Hacking Internship – Batch B082**.
 
-**Intern:** Antoinette Thompson  
-**Batch:** B082  
-**Week:** 3
+The week focused on password auditing and recovery in a controlled training environment using a password-protected PDF supplied for the lab.
 
----
+## Project Modules
 
-## Overview
+### W3-PM1 – Password Cracking with JTR
 
-Week 3 focused on password cracking techniques using a controlled,
-authorized training PDF supplied as part of the NetworkWalks
-Cybersecurity & Ethical Hacking internship.
+Used **John the Ripper (JTR)** and the **Johnny GUI** to extract/process the PDF password hash, perform the password-cracking task, recover the training password, and verify the result by opening the protected PDF.
 
-The exercises demonstrated how a password-protected PDF can be
-processed to extract its password hash and how password-cracking
-tools can be used to recover a weak password in a controlled
-laboratory environment.
+Evidence: `W3-PM1-JTR/screenshots/`
 
-Two approaches were completed:
+### W3-PM2 – Password Cracking with NetworkWalks Tools
 
-1. Password Cracking with John the Ripper (JTR)
-2. Password Cracking with NetworkWalks Tools
+Used the **NetworkWalks Hash Calculator** to obtain the PDF hash and the **NetworkWalks Password Cracker** to perform a dictionary-based password attack. The recovered password was then used to open the protected PDF and verify successful completion.
 
----
+Evidence: `W3-PM2-NetworkWalks/screenshots/`
 
 ## Learning Objectives
 
 - Understand the relationship between password protection and hashing.
-- Extract a password hash from a protected PDF.
-- Use John the Ripper and Johnny for password recovery.
-- Use NetworkWalks Hash Calculator to extract a PDF hash.
-- Use the NetworkWalks Password Cracker to perform a dictionary attack.
-- Verify that the recovered password successfully unlocks the PDF.
-- Understand the security risks associated with weak passwords.
+- Extract a password hash from a protected PDF in an authorized lab.
+- Use John the Ripper and Johnny for password auditing.
+- Use browser-based password-auditing tools.
+- Understand dictionary-based password attacks.
+- Verify recovered credentials by opening the authorized training file.
+- Recognize why weak/common passwords present a security risk.
 
----
+## Key Takeaways
 
-# Project Module 1 – Password Cracking with JTR
+- Password-protected files may contain password-derived hash data that can be analyzed during authorized security testing.
+- Dictionary attacks can be effective against weak or commonly used passwords.
+- Strong, unique passwords improve resistance to password-cracking attempts.
+- Security testing must always be performed with explicit authorization and within a controlled environment.
 
-## Objective
+## Security & Privacy Notice
 
-Recover the password of the provided `My Locked PDF1.pdf` using
-John the Ripper (JTR) and the Johnny graphical interface.
+This repository contains **sanitized evidence for portfolio and assessment sharing**.
 
-## Tools Used
+Sensitive hash values and recovered password values visible in the original screenshots have been intentionally redacted from the public evidence. The original unredacted evidence should be retained privately and provided only through an authorized submission channel when required.
 
-- John the Ripper
-- Johnny GUI
-- PDF Hash Extractor
-- Protected training PDF
-- Windows environment
+No real user accounts, credentials, or unauthorized systems were targeted as part of this documented work.
 
-## Methodology
+## Ethical Use
 
-1. Obtained the authorized training PDF.
-2. Extracted the PDF password hash.
-3. Saved the extracted hash in a text file named `hash1.txt`.
-4. Loaded the hash file into Johnny.
-5. Started the password-cracking attack.
-6. Retrieved the recovered password.
-7. Used the recovered password to open the protected PDF.
-8. Verified successful access to the lab flag.
+All activities documented in this repository were performed using the authorized NetworkWalks training material and within the intended educational environment. Password-cracking techniques must not be applied to systems, accounts, files, or data without permission.
 
-## Evidence
+## Repository Structure
 
-Screenshots documenting the process are available in:
+```text
+NetworkWalks-B082-Week3/
+│
+├── W3-PM1-JTR/
+│   ├── screenshots/
+│   │   ├── PM1-01-Hash-Extraction-REDACTED.png
+│   │   ├── PM1-02-Johnny-Password-File-REDACTED.png
+│   │   ├── PM1-03-PDF-Password-Prompt.png
+│   │   └── PM1-04-Lab-Flag.png
+│   └── README.md
+│
+├── W3-PM2-NetworkWalks/
+│   ├── screenshots/
+│   │   ├── PM2-01-NetworkWalks-Lab.png
+│   │   ├── PM2-02-Hash-Calculator.png
+│   │   ├── PM2-03-PDF-Hash-REDACTED.png
+│   │   ├── PM2-04-Password-Cracker.png
+│   │   ├── PM2-05-Password-Recovered-REDACTED.png
+│   │   ├── PM2-06-PDF-Password-Prompt-REDACTED.png
+│   │   └── PM2-07-Lab-Flag.png
+│   └── README.md
+│
+├── .gitignore
+└── README.md
+```
 
-`W3-PM1-JTR/screenshots/`
+## LinkedIn Project Update
 
-### Result
-
-The password was successfully recovered using the JTR/Johnny
-workflow, and the protected PDF was successfully opened.
-
----
-
-# Project Module 2 – Password Cracking with NetworkWalks Tools
-
-## Objective
-
-Recover the password of the provided `My Locked PDF1.pdf` using the
-NetworkWalks Hash Calculator and Password Cracker.
-
-## Tools Used
-
-- NetworkWalks Hash Calculator
-- NetworkWalks Password Cracker
-- Web browser
-- Protected training PDF
-
-## Methodology
-
-1. Accessed the NetworkWalks password-cracking laboratory.
-2. Uploaded the authorized training PDF to the Hash Calculator.
-3. Extracted the PDF password hash.
-4. Submitted the hash to the NetworkWalks Password Cracker.
-5. Started the dictionary-based password attack.
-6. Waited for the tool to identify a matching password.
-7. Used the recovered password to open the protected PDF.
-8. Verified successful completion of the lab.
-
-## Evidence
-
-Screenshots documenting the process are available in:
-
-`W3-PM2-NetworkWalks/screenshots/`
-
-### Result
-
-The password was successfully recovered using the NetworkWalks
-Password Cracker, and the protected PDF was successfully opened.
-
----
-
-# Security Observations
-
-The exercises demonstrated that weak and commonly used passwords
-can be recovered through dictionary-based password attacks.
-
-The labs also demonstrated the importance of protecting passwords
-hashes and using strong, unique passwords.
-
-A password should not be considered secure simply because a file is
-password protected. The strength and complexity of the password are
-important factors in determining resistance to password-cracking
-attempts.
-
----
-
-# Ethical Considerations
-
-These exercises were performed strictly within the authorized
-NetworkWalks training environment using the provided laboratory
-file.
-
-Password-cracking techniques should only be performed against
-systems, files, accounts, or data for which explicit authorization
-has been granted.
-
----
-
-# Key Takeaways
-
-- Password hashes can be extracted from certain protected files.
-- Dictionary attacks can quickly identify weak/common passwords.
-- John the Ripper provides a powerful password-auditing framework.
-- Johnny provides a graphical interface for John the Ripper.
-- Browser-based tools can simplify the password-cracking workflow.
-- Strong, unique passwords significantly improve resistance to
-  dictionary attacks.
-- Authorization and ethical boundaries are essential when performing
-  security testing.
-
----
-
-## Disclaimer
-
-This repository contains cybersecurity training exercises completed
-for educational and authorized ethical-hacking purposes.
-
-All activities documented here were performed in a controlled lab
-environment using intentionally provided training materials.
-
-No unauthorized systems, accounts, files, or networks were targeted.
-
----
+LinkedIn post: **To be added after publication**
 
 ## Author
 
-**Antoinette Thompson**
+**Antoinette Thompson**  
+Cybersecurity Student | NetworkWalks Cybersecurity & Ethical Hacking Internship – Batch B082
 
-Cybersecurity Student | NetworkWalks Cybersecurity & Ethical Hacking
-Internship – Batch B082
+## Disclaimer
+
+This repository is intended for educational, portfolio, and authorized cybersecurity training purposes only. The techniques demonstrated must only be used against systems and files for which permission has been granted.
