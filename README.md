@@ -77,7 +77,7 @@ NetworkWalks-B082-Week3/
 
 ## LinkedIn Project Update
 
-LinkedIn post: **To be added after publication**
+LinkedIn post: **https://lnkd.in/p/e-n5gJwf**
 
 ## Author
 
