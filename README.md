@@ -39,9 +39,7 @@ Evidence: `W3-PM2-NetworkWalks/screenshots/`
 
 ## Security & Privacy Notice
 
-This repository contains **sanitized evidence for portfolio and assessment sharing**.
-
-Sensitive hash values and recovered password values visible in the original screenshots have been intentionally redacted from the public evidence. The original unredacted evidence should be retained privately and provided only through an authorized submission channel when required.
+This repository contains ***evidence for portfolio and assessment sharing**.
 
 No real user accounts, credentials, or unauthorized systems were targeted as part of this documented work.
 
@@ -56,8 +54,8 @@ NetworkWalks-B082-Week3/
 │
 ├── W3-PM1-JTR/
 │   ├── screenshots/
-│   │   ├── PM1-01-Hash-Extraction-REDACTED.png
-│   │   ├── PM1-02-Johnny-Password-File-REDACTED.png
+│   │   ├── PM1-01-Hash-Extraction.png
+│   │   ├── PM1-02-Johnny-Password-File.png
 │   │   ├── PM1-03-PDF-Password-Prompt.png
 │   │   └── PM1-04-Lab-Flag.png
 │   └── README.md
@@ -66,10 +64,10 @@ NetworkWalks-B082-Week3/
 │   ├── screenshots/
 │   │   ├── PM2-01-NetworkWalks-Lab.png
 │   │   ├── PM2-02-Hash-Calculator.png
-│   │   ├── PM2-03-PDF-Hash-REDACTED.png
+│   │   ├── PM2-03-PDF-Hash.png
 │   │   ├── PM2-04-Password-Cracker.png
-│   │   ├── PM2-05-Password-Recovered-REDACTED.png
-│   │   ├── PM2-06-PDF-Password-Prompt-REDACTED.png
+│   │   ├── PM2-05-Password-Recovered.png
+│   │   ├── PM2-06-PDF-Password-Prompt.png
 │   │   └── PM2-07-Lab-Flag.png
 │   └── README.md
 │
